@@ -39,7 +39,7 @@ class _Activity extends State<Activity> {
       shape: sphere,
       position: vector.Vector3(0, 0, -1),
       degreesPerSecond: 2,
-      scale: vector.Vector3(0.2, 0.3, 0.4)
+      scale: vector.Vector3(0.2, 0.2, 0.4)
     );
     arCoreController.addArCoreNode(node);
   }
